@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">JasaRumahku</string>
+    <string name="daftar"> Belum Punya Akun?  <font color='#FF0000'>
+        Daftar</font></string>
+    <string name="login"> Sudah Punya Akun?  <font color='#FF0000'>
+        Login</font></string>
+    <string name="logout">Logout</string>
+    <string name="selanjutnya">Selanjutnya</string>
 </resources>
