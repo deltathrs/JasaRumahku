@@ -15,6 +15,9 @@
         android:theme="@style/Theme.JasaRumahku"
         tools:targetApi="31">
         <activity
+            android:name=".HomeGoogleActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

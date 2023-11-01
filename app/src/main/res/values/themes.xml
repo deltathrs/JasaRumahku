@@ -5,5 +5,13 @@
          <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
 
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Button.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
     <style name="Theme.JasaRumahku" parent="Base.Theme.JasaRumahku" />
 </resources>

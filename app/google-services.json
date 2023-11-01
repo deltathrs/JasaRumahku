@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "623155254752",
+    "firebase_url": "https://login-register-firebase-459d8-default-rtdb.firebaseio.com",
     "project_id": "login-register-firebase-459d8",
     "storage_bucket": "login-register-firebase-459d8.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.jasarumahku"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "623155254752-j5ikqlls70iuh4h1l2mc7ku9k56ank06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jasarumahku",
+            "certificate_hash": "f8fd108d6e990426896755eede86c3cfa9491473"
+          }
+        },
+        {
+          "client_id": "623155254752-jcm4c5tm1mn1d9imha21kf4k1f9leqp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBsCoaqvsagkHZK14vOcqS_MuaEmPVt1U4"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623155254752-jcm4c5tm1mn1d9imha21kf4k1f9leqp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
