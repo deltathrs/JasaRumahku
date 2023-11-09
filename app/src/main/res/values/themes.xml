@@ -14,4 +14,10 @@
         <item name="cornerSize">16dp</item>
     </style>
     <style name="Theme.JasaRumahku" parent="Base.Theme.JasaRumahku" />
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@color/ColorTextPrimary</item>
+        <item name="itemTextColor">@color/ColorTextPrimary</item>
+        <item name="itemIconTint">@color/ColorTextPrimary</item>
+    </style>
+
 </resources>
