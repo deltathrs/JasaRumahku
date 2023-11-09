@@ -15,22 +15,16 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="236dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="30dp">
-
-            <ImageView
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:layout_marginStart="108dp"
-                android:src="@drawable/logo_red"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.019" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/logoblank"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.963"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
 
         <TextView
             android:layout_width="match_parent"

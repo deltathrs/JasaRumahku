@@ -12,26 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp">
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="236dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="30dp">
-
-            <ImageView
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:src="@drawable/logo_red"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.963"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.6" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/logoblank"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.963"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
 
         <TextView
             android:layout_width="match_parent"
@@ -174,7 +167,7 @@
             android:id="@+id/btn_google"
             android:layout_width="316dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="0dp"
             android:backgroundTint="@color/white"
             android:drawableLeft="@drawable/google_icon"
             android:text="Masuk dengan Google"

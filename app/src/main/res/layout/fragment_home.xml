@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Home Page"
-        android:fontFamily="@font/nunitobold"
-        android:textSize="24dp"
-        android:textColor="@color/colorOnboardingIndicatorActive"/>
+        android:text=" JasaRumahku"
+        android:textColor="@color/ColorTextPrimary"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="16dp"
+        android:drawableLeft="@drawable/logo_red"
+        android:fontFamily="@font/nunitobold"/>
 
-</FrameLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="324dp"
+        android:layout_height="144dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="30dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="10dp">
+        
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageSlider"
+            app:iss_period="1000"
+            app:iss_auto_cycle="true"
+            app:iss_delay="1000"
+            app:iss_corner_radius="20"
+            app:iss_title_background="@drawable/gradient"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
