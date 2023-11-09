@@ -14,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginStart="30dp"
         android:textSize="16dp"
-        android:drawableLeft="@drawable/logo_red"
+        android:drawableLeft="@drawable/logomini"
         android:fontFamily="@font/nunitobold"/>
 
     <androidx.cardview.widget.CardView
