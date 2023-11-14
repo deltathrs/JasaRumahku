@@ -6,4 +6,6 @@
     <color name="colorOnboardingIndicatorInactive">#CCBDBD</color>
     <color name="colorOnboardingIndicatorActive">#FF0101</color>
     <color name="TitleColor">#FD0404</color>
+    <color name="startColor">#FF0000</color>
+    <color name="endColor">#00FF00</color>
 </resources>
